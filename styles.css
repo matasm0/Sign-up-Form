@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+
+.med-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lhs {
+    width: 33%;
+    height: auto;
+
+    background-image: url("photo-1585202900225-6d3ac20a6962.avif");
+    background-size: cover;
+    /* background-color: lightblue; */
+}
+
+.logo {
+    padding: 20px 0;
+
+    margin-top: 30vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+    text-align: center;
+    font-size: 50px;
+}
+
+.rhs {
+    width: 67%;
+    height: auto;
+
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hook,
+.form-body,
+.form-outer {
+    padding: 0 max(60px, 14vw) 0 max(30px, 5vw) ;
+}
+
+.hook {
+    margin-bottom: 50px;
+}
+
+.form-body {
+    background-color: white;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+
+.form-hook {
+    margin-bottom: 20px;
+
+    color: rgb(80, 80, 80);
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 4vw;
+    row-gap: 0;
+}
+
+.form-input {
+    width: 37%;
+    height: 68px;
+    min-width: 200px;
+
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input>input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #b1b4ba;
+}
+
+.form-input>input:focus {
+    border: 2px solid #596D48;
+    box-shadow: 1px 1px 10px;
+}
+
+input.error {
+    border: 2px solid red;
+}
+
+.form-input>output {
+    color: red;
+    font-size: 12px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 12px 40px;
+
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 7px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.to-login {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.to-login>a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
